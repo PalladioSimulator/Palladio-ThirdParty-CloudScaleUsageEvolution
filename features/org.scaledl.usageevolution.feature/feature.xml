@@ -2,7 +2,7 @@
 <feature
       id="org.scaledl.usageevolution.feature"
       label="ScaleDL Usage Evoluton"
-      version="4.2.0.qualifier"
+      version="4.3.0.qualifier"
       provider-name="scaledl.org">
 
    <description url="http://www.scaledl.org">
@@ -275,7 +275,7 @@ limitations under the License.
       <import plugin="com.ibm.icu"/>
       <import plugin="org.eclipse.ui.workbench"/>
       <import plugin="org.eclipse.emf.ecore" version="2.0.0" match="greaterOrEqual"/>
-      <import plugin="org.scaledl.usageevolution" version="4.2.0" match="greaterOrEqual"/>
+      <import plugin="org.scaledl.usageevolution" version="4.3.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.common.ui" version="2.0.0" match="greaterOrEqual"/>
    </requires>
 

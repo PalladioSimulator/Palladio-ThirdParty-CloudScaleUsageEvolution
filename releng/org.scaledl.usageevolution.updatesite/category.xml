@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.scaledl.usageevolution.feature_4.2.0.qualifier.jar" id="org.scaledl.usageevolution.feature" version="4.2.0.qualifier">
+   <feature url="features/org.scaledl.usageevolution.feature_4.3.0.qualifier.jar" id="org.scaledl.usageevolution.feature" version="4.3.0.qualifier">
       <category name="org.scaledl.usageevolution"/>
    </feature>
    <category-def name="org.scaledl.usageevolution" label="ScaleDL UsageEvolution"/>
