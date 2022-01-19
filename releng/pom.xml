@@ -15,6 +15,7 @@
 
 	<modules>
 		<module>org.scaledl.usageevolution.updatesite</module>
+		<module>org.scaledl.usageevolution.mwe2</module>
 	</modules>
 
 </project>
