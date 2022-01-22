@@ -12,9 +12,9 @@ Workflow {
 	}
 
 	component = URISupportingDirectoryCleaner {
-		directory = "platform:/resource/org.palladiosimulator.usageevolution/src-gen"
-		directory = "platform:/resource/org.palladiosimulator.usageevolution.edit/src-gen"
-		directory = "platform:/resource/org.palladiosimulator.usageevolution.editor/src-gen"
+		directory = "platform:/resource/org.scaledl.usageevolution/src-gen"
+		directory = "platform:/resource/org.scaledl.usageevolution.edit/src-gen"
+		directory = "platform:/resource/org.scaledl.usageevolution.editor/src-gen"
 		exclude = ".gitkeep"
 	}
 }
