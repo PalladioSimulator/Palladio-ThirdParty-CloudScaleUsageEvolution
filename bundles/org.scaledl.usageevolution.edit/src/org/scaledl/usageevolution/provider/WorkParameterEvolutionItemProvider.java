@@ -102,6 +102,7 @@ public class WorkParameterEvolutionItemProvider extends WorkParameterEvolutionIt
         }
     }
 
+    @Override
     protected void addVariableCharacterisationPropertyDescriptor(final Object object) {
         this.itemPropertyDescriptors.add(new VariableCharacterisationPropertyDescriptor(
                 ((ComposeableAdapterFactory) this.adapterFactory).getRootAdapterFactory(), this.getResourceLocator(),
