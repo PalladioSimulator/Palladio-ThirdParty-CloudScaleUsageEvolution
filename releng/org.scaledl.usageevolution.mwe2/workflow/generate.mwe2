@@ -106,17 +106,12 @@ Workflow {
 		generateEditor = true
 		genModel = "platform:/resource/org.scaledl.usageevolution/model/usageevolution.genmodel"
 		srcPath = "platform:/resource/org.scaledl.usageevolution/src-gen"
-		srcPath = "platform:/resource/org.scaledl.usageevolution/src"
 	}
 
 	component = GapPatternPostProcessor {
 		folders = {
-			gen = "platform:/resource/org.scaledl.usageevolution/src-gen"
-			src = "platform:/resource/org.scaledl.usageevolution/src"
 			gen = "platform:/resource/org.scaledl.usageevolution.edit/src-gen"
 			src = "platform:/resource/org.scaledl.usageevolution.edit/src"
-			gen = "platform:/resource/org.scaledl.usageevolution.editor/src-gen"
-			src = "platform:/resource/org.scaledl.usageevolution.editor/src"
 		}
 	}
 }
