@@ -40,7 +40,7 @@ public class WorkParameterEvolutionItemProvider extends WorkParameterEvolutionIt
     @Override
     public List<IItemPropertyDescriptor> getPropertyDescriptors(final Object object) {
         itemPropertyDescriptors = null; // Force rebuild
-        this.getPropertyDescriptors(object);
+        super.getPropertyDescriptors(object);
         return this.itemPropertyDescriptors;
     }
 
