@@ -65,11 +65,11 @@
 <repository location="https://updatesite.palladio-simulator.com/palladio-core-pcm/nightly/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit" filter="release">
-<unit id="org.modelversioning.emfprofile.feature.feature.group" version="tbd"/>
+<unit id="org.modelversioning.emfprofile.feature.feature.group" version="0.0.0"/>
 <repository location="https://updatesite.palladio-simulator.com/palladio-thirdparty-emfprofiles/releases/latest/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit" filter="nightly">
-<unit id="org.modelversioning.emfprofile.feature.feature.group" version="tbd"/>
+<unit id="org.modelversioning.emfprofile.feature.feature.group" version="0.0.0"/>
 <repository location="https://updatesite.palladio-simulator.com/palladio-thirdparty-emfprofiles/nightly/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit" filter="release">
@@ -85,7 +85,7 @@
 <repository location="https://download.eclipse.org/releases/2021-12/202112081000/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
-<unit id="LIMBO_DLIM.feature.group" version="tbd"/>
+<unit id="LIMBO_DLIM.feature.group" version="0.0.0"/>
 <repository location="https://updatesite.palladio-simulator.com/palladio-p2mirror-dlim/nightly/"/>
 </location>
 </locations>
