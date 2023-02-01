@@ -16,4 +16,4 @@ Require-Bundle: org.eclipse.emf.mwe2.launch;bundle-version="2.10.0",
  org.objectweb.asm;bundle-version="8.0.1",
  tools.descartes.dlim.generator;bundle-version="0.15.9"
 Bundle-Vendor: org.palladiosimulator
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-17
