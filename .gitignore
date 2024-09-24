@@ -2,3 +2,4 @@
 **/bin
 **/*.class
 src-gen/
+.polyglot.META-INF
