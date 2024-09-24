@@ -7,7 +7,7 @@ Bundle-Version: 5.2.0.qualifier
 Bundle-ClassPath: .
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
-Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Export-Package: org.scaledl.usageevolution,
  org.scaledl.usageevolution.impl,
  org.scaledl.usageevolution.util

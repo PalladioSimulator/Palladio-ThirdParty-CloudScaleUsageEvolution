@@ -8,7 +8,7 @@ Bundle-ClassPath: .
 Bundle-Activator: org.scaledl.usageevolution.presentation.UsageevolutionEditorPlugin$Implementation
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
-Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Export-Package: org.scaledl.usageevolution.presentation
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.core.resources;visibility:=reexport,
@@ -21,5 +21,6 @@ Require-Bundle: org.eclipse.core.runtime,
  de.uka.ipd.sdq.probfunction.edit;visibility:=reexport,
  de.uka.ipd.sdq.stoex.edit;visibility:=reexport,
  de.uka.ipd.sdq.units.edit;visibility:=reexport,
+ org.eclipse.emf.ecore.edit;visibility:=reexport,
  tools.descartes.dlim.generator.edit;bundle-version="0.14.10";visibility:=reexport
 Bundle-ActivationPolicy: lazy
