@@ -6,7 +6,7 @@
         upperBound="-1" eType="#//Usage" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Usage" eSuperTypes="platform:/plugin/org.palladiosimulator.pcm/model/pcm.ecore#//core/entity/Entity">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="loadEvolution" eType="ecore:EClass platform:/plugin/tools.descartes.dlim.generator/src/tools/descartes/dlim/model/dlim.ecore#//Sequence"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="loadEvolution" eType="ecore:EClass platform:/plugin/tools.descartes.dlim/model/dlim.ecore#//Sequence"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="workEvolutions" upperBound="-1"
         eType="#//WorkParameterEvolution" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="scenario" lowerBound="1"
@@ -18,7 +18,7 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="WorkParameterEvolution">
     <eStructuralFeatures xsi:type="ecore:EReference" name="evolution" lowerBound="1"
-        eType="ecore:EClass platform:/plugin/tools.descartes.dlim.generator/src/tools/descartes/dlim/model/dlim.ecore#//Sequence"/>
+        eType="ecore:EClass platform:/plugin/tools.descartes.dlim/model/dlim.ecore#//Sequence"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="variableCharacterisation"
         lowerBound="1" eType="ecore:EClass platform:/plugin/org.palladiosimulator.pcm/model/pcm.ecore#//parameter/VariableCharacterisation"/>
   </eClassifiers>
