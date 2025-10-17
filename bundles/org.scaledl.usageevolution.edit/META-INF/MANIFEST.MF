@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
 Bundle-SymbolicName: org.scaledl.usageevolution.edit;singleton:=true
 Automatic-Module-Name: org.scaledl.usageevolution.edit
-Bundle-Version: 5.2.2
+Bundle-Version: 6.0.0.qualifier
 Bundle-ClassPath: .
 Bundle-Activator: org.scaledl.usageevolution.provider.UsageevolutionEditPlugin$Implementation
 Bundle-Vendor: %providerName
